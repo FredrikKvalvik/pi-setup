@@ -1,8 +1,9 @@
-#!/bin/sh
+#!/bin/bash
 
 PI_USER="pi"
 
-if (($EUID != 0)); then
+if [ $EUID != 0 ]
+then
   echo "run with sudo"
   exit 1
 fi

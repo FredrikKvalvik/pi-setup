@@ -13,9 +13,9 @@
 
 ## docker and docker-compose
 
-1. run `sudo sh docker_install.sh` to install docker
+1. run `sudo bash docker_install.sh` to install docker
 1. reboot the pi. `sudo reboot now`
-1. run `sudo sh docker_compose_install.sh` to install docker-compose
+1. run `sudo bash docker_compose_install.sh` to install docker-compose
 
 - the reboot has to happen to update docker group and allow non-root users to use docker
 - this also installs portainer, a GUI for managing docker containers and is found at [PI-IP-address]:9000
@@ -24,12 +24,12 @@
 
 I like oh-my-zsh, so this simple script installs zsh and omz, and lets you set zsh as standard shell.
 
-run `sudo sh oh-my-zsh_install.sh` to install zshg and oh-my-zsh
+run `sudo bash oh-my-zsh_install.sh` to install zshg and oh-my-zsh
 
 
 ## Docker, Portainer, PiHole, Nginx-proxy-manager and PiVPN  
 
-This is a very good base for a home server setup. In short, this lets you set up you home network with its own domains, mmultiple web servers, and a VPN; all of this on a raspberry pi.
+This is a very good base for a home server setup. In short, this lets you set up you home network with its own domains, mmultiple web servers, and a VPN; all of thison a raspberry pi.
 
 ### docker and docker-compose
 

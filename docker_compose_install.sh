@@ -1,6 +1,7 @@
-!#/bin/sh
+!#/bin/bash
 
-if (($EUID != 0)); then
+if [ $EUID != 0 ]
+then
   echo "run with sudo"
   exit 1
 fi
@@ -23,7 +24,8 @@ echo "running test to see if everything works as expected"
 # a check to see if everything is working as inteded
 docker run hello-world
 
-if(($? != 0)); then
+if [ $? != 0 ]
+then
   echo "dockers hello-world test failed"
   echo "Install script failed"
   echo "exiting now"
@@ -39,6 +41,9 @@ docker pull portainer/portainer-ce:latest
 echo "running portainer container..."
 docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 
-echo "goto ${hostname -I} to open portainer"
+# asign and print IP address and port for portainer
+PI_IP=$(hostname -I)
+echo "open portainer web GUI at:"
+echo "${PI_IP}:9000"
 
 exit
