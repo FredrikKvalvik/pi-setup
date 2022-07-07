@@ -1,6 +1,8 @@
 # pi-setup
 
-To use these scripts, you should clone this repo and run the scripts from there. Its a good idea to read through them before you start.
+To use these scripts, you should clone this repo to the pi and run the scripts from there. Its a good idea to read through them before you start.
+
+install git with `sudo apt-get install git`
 
 ## important notes
 
