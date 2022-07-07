@@ -1,10 +1,6 @@
 # pi-setup
 
-You can run these scripts by using the command: 
-```
-curl -fsSL https://raw.githubusercontent.com/FredrikKvalvik/pi-setup/main/[NAME-OF-SCRIPT-HERE] | bash
-```
-You can also clone this repo and run/change the scripts from there.
+To use these scripts, you should clone this repo and run the scripts from there. Its a good idea to read through them before you start.
 
 ## important notes
 
