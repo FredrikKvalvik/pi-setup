@@ -1,15 +1,18 @@
 # pi-setup
 
-1. Install git and clone this directory
-1. Run the script you need, and do it with sudo
-
+You can run these scripts by using the command: 
+```
+curl -fsSL https://raw.githubusercontent.com/FredrikKvalvik/pi-setup/main/[NAME-OF-SCRIPT-HERE] | bash
+```
+You can also clone this repo and run/change the scripts from there.
 
 ## important notes
 
 - the scripts assumes:
-  - that this is a clean install of raspian
+  - that its being run on a clean install of raspian 
   - that you have a working internet connection
-  - that the user is pi. change the script if its something else
+  - that the user is `pi`. change the script if its something else
+- dont just run the scripts, read through them and make sure you understand what they do.
 
 ## docker and docker-compose
 
