@@ -2,7 +2,7 @@
 
 To use these scripts, you should clone this repo to the pi and run the scripts from there. Its a good idea to read through them before you start.
 
-install git with `sudo apt-get install git`
+install git with `sudo apt install git`
 
 ## important notes
 
