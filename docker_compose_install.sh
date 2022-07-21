@@ -33,9 +33,6 @@ then
   exit 1
 fi
 
-# remove hello-world test
-docker image rm hello-world
-
 # pull portainer image and run it
 echo "pulling portainer image..."
 docker pull portainer/portainer-ce:latest
